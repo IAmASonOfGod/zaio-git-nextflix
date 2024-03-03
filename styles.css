@@ -1,0 +1,210 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+/*fonts*/
+
+.card-title{
+    font-size: 3.125rem;
+    margin-bottom: 0.5rem;
+    line-height: 1.1;
+    font-weight:600;
+}
+
+.card-subtitle{
+    font-size: 1.625rem;
+    font-weight: 400;
+    margin: 1rem 0;
+    margin-bottom: 35px;
+}
+
+.email-for-title{
+    font-size: 1.2rem;
+    font-weight: 200;
+    padding-bottom: 20px;
+}
+
+.banner-wrap{
+    background-image: url(./assets/ntflx\ bg\ img.png);
+    background-size: cover; 
+    height: 100vh;
+    border-bottom: 10px solid #232323;
+}
+
+.navbar > img {
+    width: 148px;
+    height: 40px;
+}
+
+.navbar > a{
+    
+    color: white;
+    padding: 7px 17px;
+    background-color: red;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+.navbar{
+    display: flex;
+    height:45px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 45px;
+    padding-top:45px;
+}
+
+.banner-container{
+    color: white;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    height:calc(100% - 45px);
+    position: relative;
+}
+
+.get-started-form{
+    height: 60px;
+    display: flex;
+}
+
+.get-started-form input{
+    height: 100%;
+    width:450px;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+
+.get-started-form button{
+    background-color: red;
+    color: white;
+    height: 100%;
+    font-size: 1.625rem;
+    border: none;
+    padding: 0 26px;
+    margin-top: 20px;
+    margin-left: 1px;
+}
+
+.info-container{
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 70px 45px;
+    border-bottom: 10px solid #232323;
+}
+
+/* FOOTER STYLES */
+
+.footer-items{
+    margin: 0 47.5px;
+    padding: 70px 45px;
+}
+
+footer{
+    background-color: black;
+}
+
+.footer-top{
+    margin-bottom: 30px;
+} 
+
+footer ul li, .questions-title{
+    color: #757575;
+}
+
+.question-title{
+    text-decoration:none;
+}
+
+footer ul li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footer-links{
+    list-style-type: none;
+    columns: 4;
+    padding: 0px;
+    font-size: 13px;
+}
+
+.info{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
+
+.tv-container{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.tv-container video{
+    position: absolute;
+}
+
+.tv-container img{
+    z-index: 1;
+}
+
+.overlay{
+    height:100%;
+    width:100%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    opacity: 60%;
+}
+
+.welcome{
+   text-indent: 7px; 
+}
+
+.unlimited{
+    text-indent: 50px;
+}
+
+.shows{
+    text-indent: 99px;
+}
+
+.navbar img{
+    z-index: 1;
+}
+
+.navbar a{
+    z-index: 1;
+}
+
+.language{
+    height: 53px;
+    width: 142px;
+    color: grey;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.language select{
+    margin-left: 10px;
+    border: none;
+    appearance: none;
+    background-color: black;
+    color: grey;
+    margin-bottom: 15px;
+    margin-right: 10px;
+}
+
+.language i{
+    height: 28px;
+    margin-top: 5px;
+}
